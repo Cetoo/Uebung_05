@@ -34,7 +34,7 @@ public class Auto extends Fahrzeug
 
 
     //Konstruktor
-    public Auto(short reifen, String farbe, short ps, short tueren, short geschwindigkeit, short airbags)
+    public Auto(short reifen, String farbe, short ps, short tueren, short airbags)
     {
         super(reifen, farbe, ps, tueren, (short) 0);
         this.klimaanlage = false;

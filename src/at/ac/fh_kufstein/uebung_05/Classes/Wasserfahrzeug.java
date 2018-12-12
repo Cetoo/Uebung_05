@@ -16,9 +16,9 @@ public class Wasserfahrzeug extends Fahrzeug
 
 
     //Konstruktor
-    public Wasserfahrzeug(short reifen, String farbe, short ps, short tueren, short geschwindigkeit, double tiefgang, short schrauben, double ladung)
+    public Wasserfahrzeug(short reifen, String farbe, short ps, short tueren,double tiefgang, short schrauben, double ladung)
     {
-        super(reifen, farbe, ps, tueren,geschwindigkeit);
+        super(reifen, farbe, ps, tueren);
         this.tiefgang = tiefgang;
         this.schrauben = schrauben;
         this.ladung = ladung;

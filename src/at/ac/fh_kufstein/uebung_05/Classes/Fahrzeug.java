@@ -13,7 +13,7 @@ public class Fahrzeug
 
 
     //Konstruktor
-    public Fahrzeug(short reifen, String farbe, short ps, short tueren,short geschwindigkeit)
+    public Fahrzeug(short reifen, String farbe, short ps, short tueren)
     {
         this.reifen = reifen;
         this.farbe = farbe;

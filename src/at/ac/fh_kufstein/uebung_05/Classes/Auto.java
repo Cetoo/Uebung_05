@@ -61,4 +61,13 @@ public class Auto extends Fahrzeug
     {
         this.airbags = airbags;
     }
+
+
+//Aufgabe 6 Überschreiben einer Methode
+
+    @Override
+    public String toString()
+    {
+        return "Mein Auto hat " + this.getPs() + " PS und fährt mit " + this.getGeschwindigkeit() + " km/h";
+    }
 }

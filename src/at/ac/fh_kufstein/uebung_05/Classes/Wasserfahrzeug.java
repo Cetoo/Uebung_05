@@ -18,7 +18,7 @@ public class Wasserfahrzeug extends Fahrzeug
     //Konstruktor
     public Wasserfahrzeug(short reifen, String farbe, short ps, short tueren,double tiefgang, short schrauben, double ladung)
     {
-        super(reifen, farbe, ps, tueren);
+        super(reifen, farbe, ps, tueren, (short) 0);
         this.tiefgang = tiefgang;
         this.schrauben = schrauben;
         this.ladung = ladung;
@@ -52,5 +52,13 @@ public class Wasserfahrzeug extends Fahrzeug
     public void setLadung(double ladung)
     {
         this.ladung = ladung;
+    }
+
+
+    //Aufgabe 6 Überschreiben einer Methode
+
+    @Override
+    public String toString(){
+        return "Mein Wasserfahrzeug hat "+this.getPs()+" PS und einen Tiefgang von "+getTiefgang()+" m";
     }
 }
